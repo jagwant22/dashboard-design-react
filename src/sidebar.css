@@ -1,0 +1,32 @@
+#sidebar{
+    position: fixed;
+    height: 100%;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+    width: 15%;
+    color:white;
+    background:rgb(0, 50, 74);
+    top:0;
+    left:.5%;
+    padding:2%;
+    z-index: 10000;
+    
+}
+
+#nav-hr{
+    width:100%;
+}
+.sidenav_btn{
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    width:100%;
+    border-radius: 4px;
+    border:0px;
+    color:white;
+    
+}
+
+.sidenav_btn:hover{
+    background: rgba(255, 255, 255, 0.48);
+    color: green;
+    
+}
